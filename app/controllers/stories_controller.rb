@@ -5,6 +5,7 @@ class StoriesController < ApplicationController
   # GET /stories.json
   def index
     @stories = Story.all
+    
   end
 
   # GET /stories/1
